@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Travel</title>
+    <link rel="icon" type="image/x-icon" href="assets/ico/favicon.ico">
+</head>
+<body>
+    <div class = "wrapper">
+        <header>
+            <div class = "header-container">
+                <div class = "header-logo">
+                    <div class = "header-logo">
+                        <img src="assets/svg/Vector.svg" alt="header logo" class = "header-logo">
+                    </div>
+                    <div class = "header-travel-portal">
+                        <img src="assets/svg/travelportal.svg" alt="header logo" class="header-logo"> 
+                    </div>
+                </div>
+                    <nav class = "nav">
+                        <ul class = "nav-list">
+                            <li class="nav-item"><a href="#preview" class="nav-link">How It Works</a></li>
+                            <li class="nav-item"><a href="#steps" class="nav-link">Plan Your Trip</a></li>
+                            <li class="nav-item"><a href="#destinations" class="nav-link">Destinations</a></li>
+                            <li class="nav-item"><a href="#stories" class="nav-link">Travel Stories</a></li>
+                        </ul>
+                    </nav>
+                <div class = "burger-wrap">
+                    <div class = "show-menu">
+                        <button class ="menu-close"><img src = "assets/svg/menuclose.svg" alt = "close menu"></button>
+                        <ul class = "burger-list">
+                            <li class="nav-item"><a href="#preview" class="nav-link">How It Works</a></li>
+                            <li class="nav-item"><a href="#steps" class="nav-link">Plan Your Trip</a></li>
+                            <li class="nav-item"><a href="#destinations" class="nav-link">Destinations</a></li>
+                            <li class="nav-item"><a href="#stories" class="nav-link">Travel Stories</a></li>
+                            <li class="nav-item"><a class="nav-link open-popup">Account</a></li>
+                            <li class="nav-item"><a href="#footer" class="nav-link">Social Media</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <button class = "header-button open-popup">Login</button>
+                <button class="menu-open"><img src = "assets/svg/menu.svg" alt = "open menu"></button>
+            </div>
+        </header>
+        <main>  
+            <div class = "main-container">
+                <div class = "popup-bg">
+                    <form class = "popup">
+                        <h2 class = "popup-title">Log in to your account</h2>
+                        <div class = "facebook-button"><button><img src = "assets/svg/facebooklogo.svg">Sign In with Facebook</button></div>
+                        <div class = "google-button"><button><img src = "assets/svg/googlelogo.svg">Sign In with Google</button></div>
+                        <div class = "liner">or</div>
+                        <label class ="email">
+                            <div class="label-text">E-mail</div>
+                            <input type = "email" name = "e-mail">
+                        </label>
+                        <label class = "password">
+                            <div class="label-text">Password</div>
+                            <input type = "password" name = "password">
+                        </label>
+                        <button class = "sign-button" type = "submit">Sign in</button>
+                        <button class = "forgot-text" a href="#">Forgot Your Password</button>
+                        <div class = "reg-liner"></div>
+                        <div class = "popup-register">Don’t have an account? <a href = "#" class="popup-register-link">Register</a></div>
+                    </form>
+                </div>
+                <section class = "howitworks" id="preview">
+                        <img class = "background" src="assets/jpg/background.jpg" alt="background">
+                    <div class = "container preview-container">
+                        <div class = "preview">
+                            <h1 class = "preview-title">Explore the beauty of the World</h1>
+                            <p class = "preview-text">Receive personalized recommendations for countries, hotels, activities and more</p> 
+                        </div>
+                        <form action = "/">
+                            <input placeholder="What would you like to do?">                            
+                            <button class = "search-button">Start Planning</button>
+                        </form>
+                    </div>
+                </section>
+                <section class = "steps-section" id="steps">
+                    <h2 class = "steps-title">3 steps to the perfect trip</h2>
+                    <div class = "steps">
+                        <div class = "step step-first">
+                            <div class = "stepico">
+                                <img src="assets/svg/bike.svg" alt="bike">
+                            </div>
+                            <p class = "steptext">Tell us what you want to do</p>
+                        </div>
+                        <div class = "step">
+                            <div class = "stepico">
+                                <img src="assets/svg/calendar.svg" alt="calendar">
+                            </div>
+                            <p class = "steptext">Share us preferable dates</p>
+                        </div>
+                        <div class = "step step-last">
+                            <div class = "stepico">
+                                <img src="assets/svg/plane.svg" alt="plane">
+                            </div>
+                            <p class = "steptext">We will give you recommendations</p>
+                        </div>
+                    </div>
+                </section>
+                <section class = "destinations" id = "destinations">
+                    <h2 class = "destinations-title">Popular Destinations</h2>
+                    <div class = "slider-container">
+                        <div class="carousel">
+                            <div class = "slider">
+                                <div class = "destination-item destination-first">
+                                    <img src="assets/jpg/spain.jpg" alt="spain">
+                                    <p>Spain</p>
+                                    
+                                </div>
+                                <div class = "destination-item active-item">
+                                    <img src="assets/jpg/japan.jpg" alt="japan">
+                                    <p>Japan</p>
+                                    
+                                </div>
+                                <div class = "destination-item destination-last">
+                                    <img src="assets/jpg/usa.jpg" alt="usa">
+                                    <p>USA</p>
+                                    
+                                </div>
+                                
+                            </div>
+                            <button class = "arrow-left">
+                                <img src = "assets/svg/arrow.svg" alt = "right arrow">
+                            </button>
+                            <button class = "arrow-right">
+                                <img src = "assets/svg/arrow.svg" alt = "right arrow">
+                            </button>
+                        </div>
+                        
+                    </div>
+                    <div class = "slider-bottom">
+                        <div class = "slider-dots">
+                            <div class ="slider-dot">
+                            </div>
+                            <div class ="slider-dot active-dot">
+                            </div>
+                            <div class ="slider-dot">
+                        </div>
+                        </div>
+                        <form action = "/">                         
+                            <button class = "find-button">
+                                <img class ="arrow" src = "assets/svg/arrow-right.svg" alt="arrow">
+                                <span>Find More</span>
+                            </button>
+                        </form>
+                    </div>
+                    
+                </section>
+                <section class = "stories-section" id = "stories">
+                    <h2 class = "stories-title">Travel Stories</h2>
+                    <div class = "stories-container"> 
+                        <div class = "story">
+                            <img class = "story-photo" src ="assets/jpg/boat.jpg" alt="boat">
+                            <div class = "story-text">
+                                <h3 class = "story-title">10 Photos of Attractive Thailand</h3>
+                                <p class = "storytext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... </p>
+                                <p><a href ="/">Read More</a></p>
+                            </div>
+                        </div>
+                        <div class = "story">
+                            <img class = "story-photo" src ="assets/jpg/canyon.jpg" alt="canyon">
+                            <div class = "story-text">
+                                <h3 class = "story-title">Canyonlands National Park, Utah</h3>
+                                <p class = "storytext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... </p>
+                                <p><a href ="/">Read More</a></p>
+                            </div>
+                        </div>
+                        <div class = "story">
+                            <img class = "story-photo" src ="assets/jpg/mountains.jpg" alt="mountains">
+                            <div class = "story-text">
+                                <h3 class = "story-title">I left my heart in the Mountains!</h3>
+                                <p class = "storytext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... </p>
+                                <p><a href ="/">Read More</a></p>
+                            </div>
+                        </div>
+                        <div class = "story">
+                            <img class = "story-photo" src ="assets/jpg/mountains2.jpg" alt="mountains">
+                            <div class = "story-text">
+                                <h3 class = "story-title">The Longest journey in my life!</h3>
+                                <p class = "storytext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... </p>
+                                <p><a href ="/">Read More</a></p>
+                            </div>
+                        </div>
+                        <div class = "story-button">                     
+                            <button class = "find-button">
+                                <img class ="arrow" src = "assets/svg/arrow-right.svg" alt="arrow">
+                                <span>See More</span>
+                            </button>
+                        </div>   
+                    </div>
+                </section>
+            </div>
+        </main>
+        <footer class = "footer" id="footer">
+            <div></div>
+            <div>
+                <p class = "footer-rights">All Rights Reserved © Travel Portal</p>
+            </div>
+            <div class = "footer-logo">
+                <ul class = "footer-list">
+                    <li class="footer-item">
+                        <a href="https://rs.school/js-stage0/" class="footer-link">
+                            <img src = "assets/svg/inst.svg" alt = "inst">
+                        </a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="https://github.com/altyeae" class="footer-link">
+                            <img src = "assets/svg/yt.svg" alt = "youtube">
+                        </a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="https://github.com/altyeae" class="footer-link">
+                            <img src = "assets/svg/twitter.svg" alt = "twitter">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
